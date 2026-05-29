@@ -2,7 +2,9 @@
 
 A lightweight Claude Code skill that simulates a five-role expert council and chairman for structured decision-making.
 
-Inspired by the LLM Council idea, Claude Council turns one important question into a boardroom-style debate. Instead of asking Claude for one quick answer, this skill creates multiple expert perspectives, forces them to challenge each other, and then produces a final chairman verdict.
+Inspired by Andrej Karpathy’s LLM Council idea, this skill brings a council-style decision process directly into Claude Code. Instead of asking Claude for one quick answer, LLM Council creates multiple expert perspectives, forces them to challenge each other, and then produces a final chairman verdict.
+
+This is not a multi-model OpenRouter app. It is a simple Claude Code skill designed to be copied, installed, and used inside Claude.
 
 ## Why
 
@@ -17,7 +19,7 @@ Good decisions require:
 * execution planning
 * a clear final decision
 
-Claude Council helps you think through major decisions more clearly by simulating a structured council meeting inside Claude Code.
+LLM Council helps you think through major decisions more clearly by simulating a structured council meeting inside Claude Code.
 
 ## How It Works
 
@@ -48,7 +50,7 @@ Each decision goes through four stages:
 
 ## Use Cases
 
-Claude Council is useful for:
+LLM Council is useful for:
 
 * product decisions
 * startup strategy
@@ -61,10 +63,22 @@ Claude Council is useful for:
 
 ## Installation
 
-Copy the skill into your Claude Code project:
+Clone this repository into your Claude Code skills folder:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/llm-council.git ~/.claude/skills/llm-council
+```
+
+Or copy `SKILL.md` manually into:
 
 ```text
-.claude/skills/llm-council/SKILL.md
+~/.claude/skills/llm-council/SKILL.md
+```
+
+For a project-specific installation, copy it into:
+
+```text
+your-project/.claude/skills/llm-council/SKILL.md
 ```
 
 Then use it in Claude Code:
