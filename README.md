@@ -66,7 +66,7 @@ LLM Council is useful for:
 Clone this repository into your Claude Code skills folder:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/llm-council.git ~/.claude/skills/llm-council
+git clone https://github.com/ericl574/llm-council.git ~/.claude/skills/llm-council
 ```
 
 Or copy `SKILL.md` manually into:
