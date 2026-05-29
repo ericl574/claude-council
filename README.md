@@ -1,2 +1,2 @@
 # claude-council
-A Claude-powered decision-making tool that simulates a 5-role expert council and a chairman to debate important decisions and produce a final verdict.
+A Claude Code skill that simulates a five-role expert council and chairman for better decision-making.
