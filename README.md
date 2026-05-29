@@ -1,4 +1,4 @@
-# Claude Council
+# LLM Council
 
 A lightweight Claude Code skill that simulates a five-role expert council and chairman for structured decision-making.
 
