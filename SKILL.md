@@ -1,8 +1,7 @@
 ---
-
 name: llm-council
 description: Use this skill when the user needs to make an important decision, compare options, review a plan, evaluate tradeoffs, or get a structured five-role council debate with a final chairman verdict.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # LLM Council for Claude
 
